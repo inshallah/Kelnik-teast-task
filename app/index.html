@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+</head>
+<body>
+
+	<header class="main-header">
+		<div class="header__inner">	
+			<a class="main-header__logo logo mobile-hidden" href="" >
+				<img class="logo__image" src="img/logo.png" alt="Логотип" >
+			</a>
+
+			<nav class="main-nav mobile-hidden">
+				<a class="main-nav__item link-state" href="">Объекты</a>
+				<a class="main-nav__item link-state" href="">Компания</a>
+				<a class="main-nav__item link-state" href="">Как купить</a>
+				<a class="main-nav__item link-state" href="">Агентам</a>
+				<a class="main-nav__item link-state" href="">Регионам</a>
+				<a class="main-nav__item link-state" href="">Акции</a>
+				<a class="main-nav__item link-state" href="">Контакты</a>
+			</nav>
+			
+			<div class="phone">
+				<a href="tel: +8888888898" class="phone__link link">8 888 88 88 98</a> 
+				<span class="phone__text">Звони скорее!</span>
+			</div>
+		</div>
+
+		<div class="mobile-menu">
+			<a href="" class="btn-burger">
+				<span class=""></span>
+			</a>
+		</div>
+
+	</header>
+
+
+	<main class="inner">	
+		<section class="flats">	
+			<h1 class="flats__title">Найдено 666 квартир</h1>
+			<div class="flats__inner">
+
+				<div class="sorting flats__sorting">Сортировать по: 
+					<span class="sorting flats__sorting-inner"> 
+						<span class="sorting__by-price">Цене</span> 
+						<span class="sorting__by-rooms">Комнатам</span>
+					</span>
+				</div>
+
+				<div class="flats-item flats-item_status_reserved flats-item_selected">
+					<span class="reserved-tooltip">Квартира нашла потенциального покупателя. Подпишитесь на <a class="reserved-tooltip__link" href="">нашу рассылку</a>, и мы известим Вас, если квартира освободится.</span>
+					<div class="flats-item__img-wrapper">
+						<img class="flats-item__img" src="img/flat-1.png" alt="Студия № 44">
+					</div>
+					<div class="flats-item__description-wrapper">
+						<div class="flats-item__description">
+							<h3 class="flats-item__title flats-item__title_padding-bottom">Студия №44</h3>
+							<div class="flats-item__info">	
+								<span class="flats-item__info-point flats-item__info-point_blue">без<br>отделки</span>
+								<span class="flats-item__info-point">28 м<br>
+									<span class="flats-item__info-point_smaller">площадь</span>
+								</span>
+								<span class="flats-item__info-point">12/44<br> 
+									<span class="flats-item__info-point_smaller">этаж</span>
+								</span>
+							</div>
+							<p class="flats-item__price">1 900 000 руб.</p>
+						</div>
+					</div>
+					<a class="flats-item__button flats-item__button_status_reserved">Забронировано</a>
+				</div>
+
+				<div class="flats-item flats-item_status_vacant flats-item_unselected">		
+					<div class="flats-item__img-wrapper">
+						<img class="flats-item__img" src="img/flat-2.png" alt="Студия № 44">
+					</div>
+					<div class="flats-item__description-wrapper">
+						<div class="flats-item__description">
+							<h3 class="flats-item__title">Однокомнатная<br>№666</h3>
+							<div class="flats-item__info">	
+								<span class="flats-item__info-point flats-item__info-point_blue">базовая<br>отделка</span>
+								<span class="flats-item__info-point">66 м<br>
+									<span class="flats-item__info-point_smaller">площадь</span>
+								</span>
+								<span class="flats-item__info-point">6/6<br> 
+									<span class="flats-item__info-point_smaller">этаж</span>
+								</span>
+							</div>
+							<p class="flats-item__price">1 666 666 руб.</p>
+						</div>
+					</div>
+					<a class="flats-item__button flats-item__button_status_vacant flats-item__button_btn-state">Свободно</a>
+				</div>
+
+				<div class="flats-item flats-item_status_sold flats-item_selected">
+					<div class="flats-item__img-wrapper">
+						<img class="flats-item__img flats-item__img_padding-bottom" src="img/flat-3.png" alt="Студия № 44">
+					</div>
+					<div class="flats-item__description-wrapper">
+						<div class="flats-item__description">
+							<h3 class="flats-item__title">Двухкомнатная<br>№567</h3>
+							<div class="flats-item__info">	
+								<span class="flats-item__info-point flats-item__info-point_blue">черновая<br>отделка</span>
+								<span class="flats-item__info-point">65.6 м<br>
+									<span class="flats-item__info-point_smaller">площадь</span>
+								</span>
+								<span class="flats-item__info-point">7/14<br> 
+									<span class="flats-item__info-point_smaller">этаж</span>
+								</span>
+							</div>
+							<p class="flats-item__price">5 900 000 руб.</p>
+						</div>
+					</div>
+					<a class="flats-item__button flats-item__button_status_sold">Продано</a>
+				</div>
+
+				<div class="flats-item flats-item_status_reserved flats-item_unselected">
+					<span class="reserved-tooltip">Квартира нашла потенциального покупателя. Подпишитесь на <a class="reserved-tooltip__link" href="">нашу рассылку</a>, и мы известим Вас, если квартира освободится.</span>
+					<div class="flats-item__img-wrapper">
+						<img class="flats-item__img flats-item__img_padding-bottom" src="img/flat-4.png" alt="Студия № 44">
+					</div>
+					<div class="flats-item__description-wrapper"> 
+						<div class="flats-item__description">
+							<h3 class="flats-item__title">Трехкомнатная<br>№45</h3>
+							<div class="flats-item__info">	
+								<span class="flats-item__info-point flats-item__info-point_blue">без<br>отделки</span>
+								<span class="flats-item__info-point">56 м<br>
+									<span class="flats-item__info-point_smaller">площадь</span>
+								</span>
+								<span class="flats-item__info-point">1/14<br> 
+									<span class="flats-item__info-point_smaller">этаж</span>
+								</span>
+							</div>
+							<p class="flats-item__price">12 900 000 руб.</p>
+						</div>
+					</div>
+					<a class="flats-item__button flats-item__button_status_reserved">Забронировано</a>
+				</div>
+
+				<div class="flats-item flats-item_status_reserved flats-item_sale-17 flats-item_shock-price">
+					<span class="reserved-tooltip">Квартира нашла потенциального покупателя. Подпишитесь на <a class="reserved-tooltip__link" href="">нашу рассылку</a>, и мы известим Вас, если квартира освободится.</span>
+					<div class="flats-item_selected"></div>
+					<div class="flats-item__img-wrapper">
+						<img class="flats-item__img" src="img/flat-5.png" alt="Студия № 44">
+					</div>
+					<div class="flats-item__description-wrapper">
+						<div class="flats-item__description">
+							<h3 class="flats-item__title flats-item__title_padding-bottom">Студия №25</h3>
+							<div class="flats-item__info">	
+								<span class="flats-item__info-point flats-item__info-point_blue">черновая<br>отделка</span>
+								<span class="flats-item__info-point">18 м<br>
+									<span class="flats-item__info-point_smaller">площадь</span>
+								</span>
+								<span class="flats-item__info-point">12/44<br> 
+									<span class="flats-item__info-point_smaller">этаж</span>
+								</span>
+							</div>
+							<p class="flats-item__price">1 900 000 руб.</p>
+						</div>
+					</div>
+					<a class="flats-item__button flats-item__button_status_reserved">Забронировано</a>
+				</div>
+
+				<div class="flats-item flats-item_status_reserved flats-item_unselected flats-item_sale-6">
+					<span class="reserved-tooltip">Квартира нашла потенциального покупателя. Подпишитесь на <a class="reserved-tooltip__link" href="">нашу рассылку</a>, и мы известим Вас, если квартира освободится.</span>
+					<div class="flats-item__img-wrapper">
+						<img class="flats-item__img flats-item__img_padding-bottom" src="img/flat-6.png" alt="Студия № 44">
+					</div>
+					<div class="flats-item__description-wrapper">
+						<div class="flats-item__description">
+							<h3 class="flats-item__title">Четырехкомнатная<br>№259</h3>
+							<div class="flats-item__info">	
+								<span class="flats-item__info-point flats-item__info-point_blue">черновая<br>отделка</span>
+								<span class="flats-item__info-point">98 м<br>
+									<span class="flats-item__info-point_smaller">площадь</span>
+								</span>
+								<span class="flats-item__info-point">14/14<br> 
+									<span class="flats-item__info-point_smaller">этаж</span>
+								</span>
+							</div>
+							<p class="flats-item__price">23 900 000 руб.</p>
+						</div>
+					</div>
+					<a class="flats-item__button flats-item__button_status_reserved">Забронировано</a>
+				</div>
+
+				<div class="flats-item flats-item_status_vacant flats-item_unselected">
+					<div class="flats-item__img-wrapper">
+						<img class="flats-item__img" src="img/flat-7.png" alt="Студия № 44">
+					</div>
+					<div class="flats-item__description-wrapper">
+						<div class="flats-item__description">
+							<h3 class="flats-item__title">Однокомнатная<br>№56</h3>
+							<div class="flats-item__info">	
+								<span class="flats-item__info-point flats-item__info-point_blue">без<br>отделки</span>
+								<span class="flats-item__info-point">36 м<br>
+									<span class="flats-item__info-point_smaller">площадь</span>
+								</span>
+								<span class="flats-item__info-point">3/6<br> 
+									<span class="flats-item__info-point_smaller">этаж</span>
+								</span>
+							</div>
+							<p class="flats-item__price">5 666 666 руб.</p>
+						</div>
+					</div>
+					<a class="flats-item__button flats-item__button_status_vacant flats-item__button_btn-state">Свободно</a>
+				</div>
+
+				<div class="flats-item flats-item_status_vacant flats-item_unselected">
+					<div class="flats-item__img-wrapper">
+						<img class="flats-item__img" src="img/flat-8.png" alt="Студия № 44">
+					</div>
+					<div class="flats-item__description-wrapper">
+						<div class="flats-item__description">
+							<h3 class="flats-item__title">Трехкомнатная<br>№46</h3>
+							<div class="flats-item__info">	
+								<span class="flats-item__info-point flats-item__info-point_blue">черновая<br>отделка</span>
+								<span class="flats-item__info-point">86 м<br>
+									<span class="flats-item__info-point_smaller">площадь</span>
+								</span>
+								<span class="flats-item__info-point">1/6<br> 
+									<span class="flats-item__info-point_smaller">этаж</span>
+								</span>
+							</div>
+							<p class="flats-item__price">5 696 664 руб.</p>
+						</div>
+					</div>
+					<a class="flats-item__button flats-item__button_status_vacant flats-item__button_btn-state">Свободно</a>
+				</div>
+
+				<div class="flats-item flats-item_status_reserved  flats-item_shock-price flats-item_unselected">
+					<span class="reserved-tooltip">Квартира нашла потенциального покупателя. Подпишитесь на <a class="reserved-tooltip__link" href="">нашу рассылку</a>, и мы известим Вас, если квартира освободится.</span>
+					<div class="flats-item_sale-9"></div>
+					<div class="flats-item__img-wrapper">
+						<img class="flats-item__img flats-item__img_padding-bottom" src="img/flat-9.png" alt="Студия № 44">
+					</div>
+					<div class="flats-item__description-wrapper">
+						<div class="flats-item__description">
+							<h3 class="flats-item__title">Однокомнатная<br>№2</h3>
+							<div class="flats-item__info">	
+								<span class="flats-item__info-point flats-item__info-point_blue">черновая<br>отделка</span>
+								<span class="flats-item__info-point">18 м<br>
+									<span class="flats-item__info-point_smaller">площадь</span>
+								</span>
+								<span class="flats-item__info-point">3/14<br> 
+									<span class="flats-item__info-point_smaller">этаж</span>
+								</span>
+							</div>
+							<p class="flats-item__price">1 200 000 руб.</p>
+						</div>
+					</div>
+					<a class="flats-item__button flats-item__button_status_reserved">Забронировано</a>
+				</div>
+
+				<div class="flats-item flats-item_status_reserved flats-item_unselected flats-item_sale-6">
+					<span class="reserved-tooltip">Квартира нашла потенциального покупателя. Подпишитесь на <a class="reserved-tooltip__link" href="">нашу рассылку</a>, и мы известим Вас, если квартира освободится.</span>
+					<div class="flats-item__img-wrapper">
+						<img class="flats-item__img" src="img/flat-10.png" alt="Студия № 44">
+					</div>
+					<div class="flats-item__description-wrapper">
+						<div class="flats-item__description">
+							<h3 class="flats-item__title flats-item__title_padding-bottom">Студия №12</h3>
+							<div class="flats-item__info">	
+								<span class="flats-item__info-point flats-item__info-point_blue">черновая<br>отделка</span>
+								<span class="flats-item__info-point">38 м<br>
+									<span class="flats-item__info-point_smaller">площадь</span>
+								</span>
+								<span class="flats-item__info-point">6/14<br> 
+									<span class="flats-item__info-point_smaller">этаж</span>
+								</span>
+							</div>
+							<p class="flats-item__price">1 500 500 руб.</p>
+						</div>
+					</div>
+					<a class="flats-item__button flats-item__button_status_reserved">Забронировано</a>
+				</div>
+
+				<div class="flats-item flats-item_status_reserved flats-item_unselected">
+					<span class="reserved-tooltip">Квартира нашла потенциального покупателя. Подпишитесь на <a class="reserved-tooltip__link" href="">нашу рассылку</a>, и мы известим Вас, если квартира освободится.</span>
+					<div class="flats-item__img-wrapper">
+						<img class="flats-item__img" src="img/flat-11.png" alt="Студия № 44">
+					</div>
+					<div class="flats-item__description-wrapper">
+						<div class="flats-item__description">
+							<h3 class="flats-item__title">Однокомнатная<br>№8</h3>
+							<div class="flats-item__info">	
+								<span class="flats-item__info-point flats-item__info-point_blue">черновая<br>отделка</span>
+								<span class="flats-item__info-point">48 м<br>
+									<span class="flats-item__info-point_smaller">площадь</span>
+								</span>
+								<span class="flats-item__info-point">3/14<br> 
+									<span class="flats-item__info-point_smaller">этаж</span>
+								</span>
+							</div>
+							<p class="flats-item__price">6 200 000 руб.</p>
+						</div>
+					</div>
+					<a class="flats-item__button flats-item__button_status_reserved">Забронировано</a>
+				</div>
+
+				<div class="flats-item flats-item_status_reserved flats-item_unselected flats-item_sale-6">
+					<span class="reserved-tooltip">Квартира нашла потенциального покупателя. Подпишитесь на <a class="reserved-tooltip__link" href="">нашу рассылку</a>, и мы известим Вас, если квартира освободится.</span>
+					<div class="flats-item__img-wrapper">
+						<img class="flats-item__img" src="img/flat-12.png" alt="Студия № 44">
+					</div>
+					<div class="flats-item__description-wrapper">
+						<div class="flats-item__description">
+							<h3 class="flats-item__title">Двухкомнатная<br>№23</h3>
+							<div class="flats-item__info">	
+								<span class="flats-item__info-point flats-item__info-point_blue">базовая<br>отделка</span>
+								<span class="flats-item__info-point">48 м<br>
+									<span class="flats-item__info-point_smaller">площадь</span>
+								</span>
+								<span class="flats-item__info-point">3/14<br> 
+									<span class="flats-item__info-point_smaller">этаж</span>
+								</span>
+							</div>
+							<p class="flats-item__price">5 255 006 руб.</p>
+						</div>
+					</div>
+					<a class="flats-item__button flats-item__button_status_reserved">Забронировано</a>
+				</div>
+
+				<button class="btn-more-flats btn-more-flats_blue btn-more-flats_state">Показать еще 20</button>
+
+			</div>
+		</section>
+	</main>
+
+
+
+	<footer class="main-footer">
+		<div class="inner main-footer__inner justify-content">
+
+			<div class="justify-content__item mobile-hidden">
+				<p class="action-purpose">Успей купить!</p>
+				<span class="action-purpose action-purpose_smaller">Подпишись и успей словить все акции</span>
+			</div>
+
+			<div class="justify-content__item"> 
+				<form class="subscribe-form justify-content" action="css/">
+					
+					<div class="subscribe-form__item">
+						<input class="input-mail subscribe-form__input-mail" type="email" name="email" placeholder="E-mail" required>
+						<div class="subscribe-form__checkbox">
+							<input id="checkbox" class="subscribe-form__real-checkbox" type="checkbox" name="checkbox" required>
+							<span class="subscribe-form__custom-checkbox"></span>
+							<label class="subscribe-form__checkbox-label" for="checkbox">Подписаться на новости</label>
+						</div>
+					</div>
+					
+					<div class="subscribe-form__item">
+						<input class="input-submit btn-state" type="submit" value="Подписаться">
+					</div>
+
+				</form>
+			</div>
+
+
+		</div>
+	</footer>
+
+</body>
+</html>
