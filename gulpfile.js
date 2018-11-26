@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
 sass = require('gulp-sass'),
 
-
+const ghPages = require('gulp-gh-pages');
 gulp.task('sass', function() {
 	return gulp.src('app/sass/**/*.sass')
 	.pipe(sass())
